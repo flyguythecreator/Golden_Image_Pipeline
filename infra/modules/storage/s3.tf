@@ -8,7 +8,7 @@ resource "aws_s3_bucket" "terraform_backend_state_management_bucket" {
   }
   tags = {
     Name        = "Terraform Backend State Bucket"
-    Environment = "Prod"
+    Environment = "TerraformState"
   }
 }
 
